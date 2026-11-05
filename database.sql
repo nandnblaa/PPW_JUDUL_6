@@ -8,7 +8,7 @@ USE db_mahasiswa;
 
 CREATE TABLE IF NOT EXISTS mahasiswa (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    npm VARCHAR(20) NOT NULL UNIQUE,
+    nim VARCHAR(20) NOT NULL UNIQUE,
     nama VARCHAR(100) NOT NULL,
     program_studi VARCHAR(100) NOT NULL,
     angkatan INT NOT NULL,
